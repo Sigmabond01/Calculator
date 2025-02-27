@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body class="dm-sans">
+    <div class="line nav small-text">
+        <span>SigmaBond01</span>
+        <p>Part of TOP</p>
+        <p>Inspired by Olxrunfxmi</p>
+    </div>
+    <div class="line main wrapper">
+        <section class="block about looser">
+            <ul class="dm-mono-regular small-text hat-off">
+                <li>Addition</li>
+                <li>Subtraction</li>
+                <li>Division</li>
+                <li>Multiplication</li>
+                <li>Percentage</li>
+                <li>Clear</li>
+                <li>Reset</li>
+            </ul>
+            <div class="group y limit-group">
+                <h1 class="darker">Calculator</h1>
+                <p>Part of TOP.</p>
+            </div>
+        </section>
+        <section class="block calculator">
+            <h2 class="lighter padded" id="visual_bar">Blank_</h2>
+            <div class="group y loose calculator_frame">
+                <svg class="bar" width="208" height="5" viewBox="0 0 208 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" width="207" height="5" rx="2.5" fill="#E8E8E8"/>
+                </svg>
+                <div class="group y screen_group">
+                    <span>Output</span>
+                    <div class="group y output_screen dm-mono-medium">
+                        <p class="operation" id="operation"></p>
+                        <p class="output" id="output"></p>
+                    </div>
+                </div>
+                <div class="group y button_group dm-mono-medium">
+                    <div class="line">
+                        <button id="AC">AC</button>
+                        <button id="plusMinus">+/-</button>
+                        <button id="percent">%</button>
+                        <button id="divide">÷</button>
+                    </div>
+                    <div class="line">
+                        <button id="7">7</button>
+                        <button id="8">8</button>
+                        <button id="9">9</button>
+                        <button id="multiply">*</button>
+                    </div>
+                    <div class="line">
+                        <button id="4">4</button>
+                        <button id="5">5</button>
+                        <button id="6">6</button>
+                        <button id="subtract">-</button>
+                    </div>
+                    <div class="line">
+                        <button id="1">1</button>
+                        <button id="2">2</button>
+                        <button id="3">3</button>
+                        <button id="add">+</button>
+                    </div>
+                    <div class="line">
+                        <button id="0">0</button>
+                        <button id="decimal">.</button>
+                        <button id="clear">C</button>
+                        <button id="equals">=</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block history">
+            <h2 class="darker">History</h2>
+            <ul class="dm-mono-regular history_frame">
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
